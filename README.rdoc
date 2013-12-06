@@ -4,6 +4,10 @@ Rails code generator
 
 A module which generates rails code base and easy deployment
 
+==Before migration
+
+Comment out line 10-19 in routes.rb [TODO: This should have been taken care without doing this] 
+
 == To run the server
 
 First run sidekiq: bundle exec sidekq

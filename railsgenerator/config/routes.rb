@@ -8,7 +8,7 @@ Railsgenerator::Application.routes.draw do
 
   # DynamicRoute.new
   Application.where(status: "complete").each do |f|
-    puts "*"*100
+    # puts "*"*100
     # puts "mount #{Object.const_get(f.name.camelize)}::Engine, at: #{f.name.downcase}"
   #   # mount #{Object.const_get(f.name.camelize)}::Engine, at: #{f.name.downcase}
   #   # mount Something::Engine, at: "something"
